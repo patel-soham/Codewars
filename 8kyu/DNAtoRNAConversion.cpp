@@ -14,7 +14,7 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 #include <string>
 
 std::string DNAtoRNA(std::string dna){
-  /*for(int i = 0; i < int(dna.length()); i++){
+  /*for(int i = 0; i < (int)dna.length(); i++){
     if(dna[i] == 'T'){
       dna[i] = 'U';
     }
